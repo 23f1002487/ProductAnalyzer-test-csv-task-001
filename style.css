@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+div {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+#total-quantity {
+  font-size: 2em;
+  text-align: center;
+  color: #007bff;
+  margin-top: 10px;
+}
+@media(max-width: 600px) {
+  body {
+    margin: 10px;
+  }
+  div {
+    padding: 10px;
+  }
+  #total-quantity {
+    font-size: 1.5em;
+  }
+}
